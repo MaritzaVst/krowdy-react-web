@@ -38,9 +38,13 @@ class App extends Component {
 							<MaterialIcon icon="arrow_back" />
 							<span>Atrás</span>
 						</div>
+						<div className="info"> 
+							<h4>Video Cuestionario</h4>
+							<p>BCP - Sub Gerente de Ingeniería de Defensa de Ciberseguridad</p>
+						</div>
 					</div>
 					<div className="second-header__right">
-					
+						<p>Holi</p>
 					</div>
 					
 				</div>
