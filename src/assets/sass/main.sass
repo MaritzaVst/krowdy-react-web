@@ -1,13 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700')
 @import './variables.sass'
 @import './mixins.sass'
 @import './components/header'
-@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700')
+@import './components/buttons'
+@import './components/carousel'
 
 body 
     background: $light
     font-family: 'Roboto', sans-serif
 
+.App 
+    padding-bottom: 80px
 
 .blue-block
     background-color: $blue-dark
     height: 176px 
+    color: #ffffff
+    display: flex
+    justify-content: space-between
+    padding: 30px 22px
+    h3 
+        color: #ffffff
+        font-size: 14px
+        font-weight: 500
+    span 
+        font-size: 12px
+        margin-right: 10px
+        position: relative
+        top: -5px
+
+.title-block
+    width: 760px
+    height: 240px
+    border: 1px solid #EAEAEA
+    border-radius: 8px
+    background-color: #FFFFFF
+    box-shadow: 0 1px 4px 0 rgba(0,21,41,0.12)
+    margin: -110px auto 0
+    display: flex
+    justify-content: space-between
+    padding: 30px 55px
+
+.title-block__number
+    font-size: 53px
+    color: $secondary-color
+
+.title-block__text
+    color: $darker
+    font-weight: 500
+    font-size: 23px
+    text-align: right
